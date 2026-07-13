@@ -3,13 +3,14 @@
   "loading_order": 150,
   "requires": [],
   "optional": [],
-  "js": "dist/index.js?v=202607131419",
+  "js": "dist/index.js?v=202607131442",
   "author": "mzrodyu",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homePage": "https://github.com/mzrodyu/iPhone",
   "auto_update": true,
   "changelog": {
     "0.1.0": "酒馆插件版首次发布：恢复完整小手机界面、接入酒馆生成接口并修复悬浮窗生命周期。",
-    "0.1.1": "将小手机开关改为左侧中部常驻按钮，避免遮挡酒馆右下角控件。"
+    "0.1.1": "将小手机开关改为左侧中部常驻按钮，避免遮挡酒馆右下角控件。",
+    "0.1.2": "修复酒馆缺少全局 VueRouter 导致插件完全无法启动的问题，并将运行依赖内置到发布包。"
   }
 }
